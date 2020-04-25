@@ -1,0 +1,23 @@
+{
+  "name": "hw-userdirectory",
+  "version": "1.0.0",
+  "description": "## User Story",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJP1986/hw-userdirectory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJP1986/hw-userdirectory/issues"
+  },
+  "homepage": "https://github.com/MJP1986/hw-userdirectory#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
