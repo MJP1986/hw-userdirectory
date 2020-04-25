@@ -16,10 +16,10 @@ class Table extends React.Component {
           photo: employee.picture.medium,
           name: employee.name.first + " " + employee.name.last,
           email: employee.email,
-          dob: employee.dob.date,
+          age: employee.dob.age,
         };
       });
-      //   console.log(newData);
+      console.log(newData);
       this.setState({
         data: newData,
         filteredData: newData,
@@ -53,7 +53,7 @@ class Table extends React.Component {
               <th scope="col">Photo</th>
               <th scope="col">Name</th>
               <th scope="col">Email</th>
-              <th scope="col">DOB</th>
+              <th scope="col">Age</th>
             </tr>
           </thead>
           <tbody>
@@ -65,7 +65,7 @@ class Table extends React.Component {
                   </td>
                   <td>{employee.name}</td>
                   <td>{employee.email}</td>
-                  <td>{employee.dob}</td>
+                  <td>{employee.age}</td>
                 </tr>
               );
             })}
