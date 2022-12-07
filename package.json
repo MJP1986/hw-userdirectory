@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/MJP1986/hw-userdirectory#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
